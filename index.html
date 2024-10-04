@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ake Browserr</title>
+    <title>ake.</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Simple Web Browser</h1>
-    <input type="text" id="url" placeholder="Enter URL here" />
-    <button id="loadBtn">Load</button>
-    <iframe id="webView" style="width:100%; height:80vh;"></iframe>
+    <div class="container">
+        <header class="header">
+            <h1>Simple Web Browser</h1>
+        </header>
+        <div class="search-bar">
+            <input type="text" id="url" placeholder="Enter URL here" />
+            <button id="loadBtn">Go</button>
+        </div>
+        <iframe id="webView" style="width:100%; height:80vh;"></iframe>
+    </div>
 </body>
 </html>
